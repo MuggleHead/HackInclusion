@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: black;
+}
+.navvar {
+    z-index: -1;
+  text-align: center;
+  font-family: "Inria Serif", serif;
+  background-color: rgba(37, 36, 36, 0.5);
+  color: white;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.navimg {
+  padding: 0px;
+}
+.st {
+    position: relative;
+    bottom: 25rem;
+    width: 100vw;
+    z-index: -10;
+}
+.op{
+  font-family: 'Inria Serif', serif;
+  text-align: center;
+  font-family: "Inria Serif", serif;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  bottom: 19rem;
+  max-width: 45ch;
+  left: 35rem;
+}
+.pen{
+  display: flex;
+  gap: 9rem;
+  justify-content: center;
+}
+.b1 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 10rem;
+  border: 3px solid #C274ED;
+  background-image: -webkit-linear-gradient( 30deg, #C274ED 50%, transparent 50% );
+  background-image: linear-gradient(30deg, #C274ED 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
+}
+.B {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50px;
+}
+.b1:hover {
+  background-position: 100%;
+  color: #fff;
+}
